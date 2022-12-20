@@ -1,0 +1,135 @@
+footer {
+  background-color: #28282b;
+  color: white;
+  padding: 40px 10px;
+}
+
+footer > div:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 1.3em;
+}
+
+footer > div:first-child h3,
+footer > div:first-child h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+footer > div:first-child ul {
+  list-style-type: none;
+}
+
+footer > div:first-child ul li,
+footer > div:first-child > div:last-child div,
+footer > div:first-child > div:last-child > div:nth-child(3) {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+footer > div:first-child ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer > div:first-child ul li a:hover {
+  color: #228b22;
+}
+
+footer > div:first-child > div:last-child > div:nth-child(3) {
+  margin-top: 10px;
+}
+
+footer > div:first-child > div:last-child > div:nth-child(3) a {
+  text-decoration: none;
+}
+
+footer > div:first-child > div:last-child > div:nth-child(3) i {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+footer > div:first-child > div:last-child > div:nth-child(3) i:hover {
+  color: #228b22;
+}
+
+footer > div:first-child .footer-samlove {
+  text-transform: uppercase;
+  color: #228b22;
+}
+
+footer > div:first-child .footer-tour {
+  text-transform: uppercase;
+}
+
+footer > div:nth-child(2) {
+  text-align: right;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+footer > div:nth-child(2) a {
+  text-decoration: none;
+  color: #228b22;
+}
+
+.center {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f2f4f5;
+  color: #707070;
+}
+
+.center .samlove {
+  text-transform: uppercase;
+}
+
+.help {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.help a {
+  text-decoration: none;
+  color: #228b22;
+  display: inline-block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media screen and (max-width: 800px) {
+  footer > div:first-child {
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+  footer > div:first-child > div {
+    width: 30%;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer > div:first-child > div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer > div:first-child > div {
+    width: 100%;
+  }
+
+  footer > div:first-child h3,
+  footer > div:first-child h2,
+  footer > div:first-child ul li,
+  footer > div:first-child > div:last-child div,
+  footer > div:first-child > div:last-child > div:nth-child(3) {
+    text-align: left;
+  }
+}
